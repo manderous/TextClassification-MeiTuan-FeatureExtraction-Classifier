@@ -273,7 +273,47 @@ n + a：7<br>
 ```
 ./feature/train.svm：训练集（原训练集的80%），表示成稀疏矩阵的形式<br>
 ./feature/valid.svm：验证集（原训练集的20%），表示成稀疏矩阵的形式<br>
+./model/model.txt：XGBoost训练出来的模型的可视化<br>
+./model/xgb.dump.raw.txt：LightGBM训练出来的模型的可视化<br>
 ```
 
 ****
 
+### feature文件夹下的数据文件介绍
+* 1 train.csv：训练集，所有的特征（特征空间）（import_csv.py生成的 csv文件）
+* 2 train.svm：训练集（原训练集的80%），表示成稀疏矩阵的形式（boost_tree.py生成的 svm文件）
+* 3 valid.svm：验证集（原训练集的20%），表示成稀疏矩阵的形式（boost_tree.py生成的 svm文件）
+
+****
+
+### lib文件夹下的数据文件介绍
+* 1 Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件（txt文件）
+* 2 Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件（txt文件）
+* 3 processed_ID_neg.txt：积极文本的词语索引（word_to_index.py生成的 txt文件）
+* 4 processed_ID_pos.txt：消极文本的词语索引（word_to_index.py生成的 txt文件）
+* 5 wordsList.npy：数字索引词语变量（word2vec_test.py生成的 npy文件）
+* 6 wordIndexVector.npy：数字索引词向量变量（word2vec_test.py生成的 npy文件）
+
+****
+
+### model文件夹下的数据文件介绍
+* 1 model.txt：XGBoost训练出来的模型的可视化（boost_tree.py生成的 txt文件）
+* 2 xgb.dump.raw.txt：LightGBM训练出来的模型的可视化（boost_tree.py生成的 txt文件）
+
+****
+
+### sentiment_dic文件夹下的数据文件介绍
+从佳峰师兄的论文的数据集中拿到。
+* 1 degree.txt：程度级别词语（中文）（txt文件）
+* 2 deny.txt：自己上网搜集的否定词典（txt文件）
+* 3 negative_comment.txt：负面评价词语（中文）（txt文件）
+* 4 negative_sentiment.txt：负面情感词语（中文）（txt文件）
+* 5 positive_comment.txt：正面评价词语（中文）（txt文件）
+* 6 positive_sentiment.txt：正面情感词语（中文）（txt文件）
+
+****
+
+### tool文件夹下的数据文件介绍
+* 1 zhwiki_2017_03.sg_50d.word2vec：搜狗词向量语料（word2vec文件）
+
+### (end)
