@@ -1,0 +1,18 @@
+pattern:服务, dist:0.85119047619
+pattern:服务态度, dist:0.854651162791
+pattern:还, dist:0.880077369439
+pattern:还, 不错, dist:0.883990719258
+pattern:一如既往, 的, 好, dist:0.860589812332
+pattern:恰到好处, dist:0.854150702427
+pattern:味道, 不错, dist:0.918300653595
+pattern:很, 不错, dist:0.885583524027
+pattern:很, 好, dist:0.92101551481
+pattern:不错, dist:0.93665480427
+pattern:不错, 的, dist:0.859550561798
+pattern:的, 恰到好处, dist:0.857959961868
+pattern:烤, dist:0.879518072289
+pattern:新鲜, dist:0.895652173913
+pattern:最, dist:0.862595419847
+pattern:古色古香, dist:0.889380530973
+pattern:得, 恰到好处, dist:0.88038277512
+pattern:很, 新鲜, dist:0.88986784141

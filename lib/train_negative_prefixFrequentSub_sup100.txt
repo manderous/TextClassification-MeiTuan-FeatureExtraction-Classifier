@@ -1,0 +1,75 @@
+pattern:超级, support:103
+pattern:口感, support:104
+pattern:高, support:104
+pattern:店里, support:106
+pattern:位置, support:108
+pattern:有点, support:109
+pattern:辣, support:110
+pattern:态度, support:110
+pattern:得, support:115
+pattern:一家, support:116
+pattern:新开, support:119
+pattern:新开, 的, support:103
+pattern:牛肉, support:125
+pattern:团购, support:131
+pattern:做, support:134
+pattern:菜, support:135
+pattern:人, support:137
+pattern:真的, support:138
+pattern:好找, support:143
+pattern:可以, support:145
+pattern:在, support:150
+pattern:店, support:162
+pattern:菜品, support:175
+pattern:免费, support:197
+pattern:口味, support:205
+pattern:装修, support:209
+pattern:有, support:256
+pattern:特别, support:268
+pattern:特别, 好, support:146
+pattern:感觉, support:275
+pattern:多, support:276
+pattern:服务, support:286
+pattern:服务态度, support:294
+pattern:服务态度, 很, support:208
+pattern:服务态度, 很, 好, support:183
+pattern:服务态度, 好, support:219
+pattern:吃, support:366
+pattern:好吃, support:371
+pattern:非常, support:383
+pattern:非常, 好, support:188
+pattern:和, support:389
+pattern:环境, support:436
+pattern:环境, 不错, support:127
+pattern:环境, 很, support:155
+pattern:还, support:455
+pattern:还, 不错, support:381
+pattern:是, support:544
+pattern:一如既往, support:547
+pattern:一如既往, 的, support:453
+pattern:一如既往, 的, 好, support:321
+pattern:都, support:547
+pattern:都, 很, support:125
+pattern:都, 不错, support:138
+pattern:恰到好处, support:571
+pattern:了, support:713
+pattern:味道, support:1277
+pattern:味道, 很, support:208
+pattern:味道, 很, 不错, support:130
+pattern:味道, 的, support:219
+pattern:味道, 的, 味道, support:126
+pattern:味道, 一如既往, support:249
+pattern:味道, 一如既往, 的, support:203
+pattern:味道, 不错, support:562
+pattern:好, support:1559
+pattern:很, support:2058
+pattern:很, 好找, support:130
+pattern:很, 好吃, support:157
+pattern:很, 不错, support:387
+pattern:很, 好, support:653
+pattern:不错, support:2632
+pattern:不错, 的, support:306
+pattern:的, support:3871
+pattern:的, 味道, support:134
+pattern:的, 恰到好处, support:149
+pattern:的, 好, support:371

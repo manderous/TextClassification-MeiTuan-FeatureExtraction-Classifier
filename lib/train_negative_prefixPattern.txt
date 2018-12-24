@@ -1,0 +1,247 @@
+pattern:[['超级']], support:103
+pattern:[['口感']], support:104
+pattern:[['高']], support:104
+pattern:[['店里']], support:106
+pattern:[['位置']], support:108
+pattern:[['有点']], support:109
+pattern:[['辣']], support:110
+pattern:[['态度']], support:110
+pattern:[['得']], support:115
+pattern:[['一家']], support:116
+pattern:[['一家'], ['的']], support:101
+pattern:[['新开']], support:119
+pattern:[['新开', '的']], support:103
+pattern:[['牛肉']], support:125
+pattern:[['团购']], support:131
+pattern:[['做']], support:134
+pattern:[['菜']], support:135
+pattern:[['人']], support:137
+pattern:[['真的']], support:138
+pattern:[['真的'], ['真的']], support:107
+pattern:[['好找']], support:143
+pattern:[['可以']], support:145
+pattern:[['可以'], ['可以']], support:112
+pattern:[['在']], support:150
+pattern:[['在'], ['在']], support:145
+pattern:[['店']], support:162
+pattern:[['菜品']], support:175
+pattern:[['免费']], support:197
+pattern:[['免费'], ['免费']], support:119
+pattern:[['口味']], support:205
+pattern:[['装修']], support:209
+pattern:[['有']], support:256
+pattern:[['有'], ['的']], support:101
+pattern:[['有'], ['有']], support:168
+pattern:[['有'], ['有'], ['有']], support:114
+pattern:[['特别']], support:268
+pattern:[['特别'], ['特别']], support:122
+pattern:[['特别', '好']], support:146
+pattern:[['感觉']], support:275
+pattern:[['多']], support:276
+pattern:[['多'], ['多']], support:112
+pattern:[['服务']], support:286
+pattern:[['服务'], ['服务']], support:102
+pattern:[['服务'], ['很']], support:102
+pattern:[['服务'], ['好']], support:149
+pattern:[['服务态度']], support:294
+pattern:[['服务态度', '很']], support:208
+pattern:[['服务态度', '很', '好']], support:183
+pattern:[['服务态度', '好']], support:219
+pattern:[['吃']], support:366
+pattern:[['吃'], ['的']], support:160
+pattern:[['吃'], ['的'], ['的']], support:109
+pattern:[['吃'], ['吃']], support:224
+pattern:[['吃'], ['吃'], ['的']], support:105
+pattern:[['吃'], ['吃'], ['吃']], support:107
+pattern:[['好吃']], support:371
+pattern:[['非常']], support:383
+pattern:[['非常', '好']], support:188
+pattern:[['非常'], ['非常']], support:189
+pattern:[['和']], support:389
+pattern:[['和'], ['不错']], support:119
+pattern:[['和'], ['和']], support:382
+pattern:[['和'], ['和'], ['不错']], support:106
+pattern:[['和'], ['和'], ['和']], support:182
+pattern:[['环境']], support:436
+pattern:[['环境'], ['很']], support:124
+pattern:[['环境', '不错']], support:127
+pattern:[['环境'], ['好']], support:136
+pattern:[['环境', '很']], support:155
+pattern:[['环境', '很'], ['很']], support:102
+pattern:[['环境'], ['环境']], support:159
+pattern:[['还']], support:455
+pattern:[['还'], ['不错']], support:292
+pattern:[['还'], ['还']], support:354
+pattern:[['还'], ['还', '不错']], support:284
+pattern:[['还', '不错']], support:381
+pattern:[['是']], support:544
+pattern:[['是'], ['的']], support:362
+pattern:[['是'], ['的'], ['的']], support:209
+pattern:[['是'], ['的'], ['的'], ['的']], support:107
+pattern:[['是'], ['是']], support:456
+pattern:[['是'], ['是'], ['的']], support:247
+pattern:[['是'], ['是'], ['的'], ['的']], support:130
+pattern:[['是'], ['是'], ['是']], support:264
+pattern:[['是'], ['是'], ['是'], ['的']], support:131
+pattern:[['一如既往']], support:547
+pattern:[['一如既往'], ['好']], support:333
+pattern:[['一如既往', '的']], support:453
+pattern:[['一如既往', '的', '好']], support:321
+pattern:[['一如既往', '的'], ['好']], support:326
+pattern:[['一如既往', '的'], ['一如既往']], support:431
+pattern:[['一如既往', '的'], ['一如既往', '好']], support:313
+pattern:[['一如既往', '的'], ['一如既往', '的']], support:431
+pattern:[['一如既往', '的'], ['一如既往', '的', '好']], support:313
+pattern:[['一如既往', '的'], ['的']], support:453
+pattern:[['一如既往', '的'], ['的', '好']], support:321
+pattern:[['一如既往'], ['的']], support:458
+pattern:[['一如既往'], ['的', '好']], support:321
+pattern:[['一如既往'], ['一如既往']], support:467
+pattern:[['一如既往'], ['一如既往', '好']], support:271
+pattern:[['一如既往'], ['一如既往', '的']], support:433
+pattern:[['一如既往'], ['一如既往', '的', '好']], support:313
+pattern:[['都']], support:547
+pattern:[['都'], ['的']], support:109
+pattern:[['都', '很']], support:125
+pattern:[['都', '很'], ['都']], support:125
+pattern:[['都', '很'], ['都', '很']], support:125
+pattern:[['都', '很'], ['很']], support:125
+pattern:[['都'], ['很']], support:136
+pattern:[['都', '不错']], support:138
+pattern:[['都'], ['不错']], support:177
+pattern:[['都'], ['都']], support:514
+pattern:[['都'], ['都', '很']], support:132
+pattern:[['都'], ['都', '不错']], support:132
+pattern:[['都'], ['都'], ['都']], support:257
+pattern:[['恰到好处']], support:571
+pattern:[['了']], support:713
+pattern:[['了'], ['的']], support:155
+pattern:[['了'], ['的'], ['的']], support:142
+pattern:[['了'], ['了']], support:452
+pattern:[['了'], ['了'], ['的']], support:153
+pattern:[['了'], ['了'], ['的'], ['的']], support:132
+pattern:[['了'], ['了'], ['了']], support:227
+pattern:[['味道']], support:1277
+pattern:[['味道'], ['很']], support:126
+pattern:[['味道', '很']], support:208
+pattern:[['味道', '很'], ['很']], support:111
+pattern:[['味道', '很', '不错']], support:130
+pattern:[['味道', '的']], support:219
+pattern:[['味道', '的', '味道']], support:126
+pattern:[['味道', '的'], ['好']], support:185
+pattern:[['味道', '的'], ['一如既往']], support:206
+pattern:[['味道', '的'], ['一如既往', '好']], support:167
+pattern:[['味道', '的'], ['一如既往', '的']], support:206
+pattern:[['味道', '的'], ['一如既往', '的', '好']], support:170
+pattern:[['味道', '的'], ['的']], support:219
+pattern:[['味道', '的'], ['的', '好']], support:178
+pattern:[['味道'], ['一如既往']], support:231
+pattern:[['味道'], ['一如既往', '好']], support:166
+pattern:[['味道'], ['一如既往', '的']], support:219
+pattern:[['味道'], ['一如既往', '的', '好']], support:181
+pattern:[['味道', '一如既往']], support:249
+pattern:[['味道', '一如既往'], ['好']], support:178
+pattern:[['味道', '一如既往', '的']], support:203
+pattern:[['味道', '一如既往', '的'], ['好']], support:169
+pattern:[['味道', '一如既往', '的'], ['一如既往']], support:203
+pattern:[['味道', '一如既往', '的'], ['一如既往', '好']], support:168
+pattern:[['味道', '一如既往', '的'], ['一如既往', '的']], support:203
+pattern:[['味道', '一如既往', '的'], ['一如既往', '的', '好']], support:168
+pattern:[['味道', '一如既往', '的'], ['的']], support:203
+pattern:[['味道', '一如既往', '的'], ['的', '好']], support:168
+pattern:[['味道', '一如既往'], ['的']], support:212
+pattern:[['味道', '一如既往'], ['的', '好']], support:175
+pattern:[['味道', '一如既往'], ['一如既往']], support:224
+pattern:[['味道', '一如既往'], ['一如既往', '好']], support:166
+pattern:[['味道', '一如既往'], ['一如既往', '的']], support:213
+pattern:[['味道', '一如既往'], ['一如既往', '的', '好']], support:175
+pattern:[['味道'], ['好']], support:262
+pattern:[['味道'], ['的']], support:416
+pattern:[['味道'], ['的', '味道']], support:126
+pattern:[['味道'], ['的', '好']], support:187
+pattern:[['味道'], ['不错']], support:418
+pattern:[['味道'], ['味道']], support:457
+pattern:[['味道'], ['味道'], ['不错']], support:108
+pattern:[['味道'], ['味道'], ['味道']], support:150
+pattern:[['味道'], ['味道', '不错']], support:265
+pattern:[['味道', '不错']], support:562
+pattern:[['好']], support:1559
+pattern:[['好'], ['很']], support:108
+pattern:[['好'], ['很', '好']], support:102
+pattern:[['好'], ['的']], support:123
+pattern:[['好'], ['好']], support:234
+pattern:[['很']], support:2058
+pattern:[['很', '好找']], support:130
+pattern:[['很'], ['都']], support:130
+pattern:[['很'], ['都', '很']], support:125
+pattern:[['很', '好吃']], support:157
+pattern:[['很'], ['不错']], support:195
+pattern:[['很'], ['的']], support:305
+pattern:[['很'], ['的'], ['的']], support:116
+pattern:[['很', '不错']], support:387
+pattern:[['很'], ['好']], support:469
+pattern:[['很', '好']], support:653
+pattern:[['很', '好'], ['很']], support:103
+pattern:[['很', '好'], ['很', '好']], support:102
+pattern:[['很', '好'], ['好']], support:124
+pattern:[['很'], ['很']], support:1225
+pattern:[['很'], ['很'], ['的']], support:159
+pattern:[['很'], ['很', '不错']], support:180
+pattern:[['很'], ['很'], ['很']], support:231
+pattern:[['很'], ['很', '好']], support:447
+pattern:[['不错']], support:2632
+pattern:[['不错'], ['的']], support:289
+pattern:[['不错'], ['的'], ['的']], support:112
+pattern:[['不错', '的']], support:306
+pattern:[['不错', '的'], ['不错']], support:117
+pattern:[['不错', '的'], ['不错', '的']], support:113
+pattern:[['不错', '的'], ['的']], support:131
+pattern:[['不错'], ['不错']], support:425
+pattern:[['不错'], ['不错'], ['的']], support:114
+pattern:[['不错'], ['不错'], ['不错']], support:135
+pattern:[['不错'], ['不错', '的']], support:257
+pattern:[['不错'], ['不错', '的'], ['的']], support:105
+pattern:[['的']], support:3871
+pattern:[['的'], ['都']], support:100
+pattern:[['的'], ['店']], support:102
+pattern:[['的'], ['是']], support:107
+pattern:[['的'], ['是'], ['是']], support:104
+pattern:[['的'], ['好吃']], support:127
+pattern:[['的', '味道']], support:134
+pattern:[['的', '味道'], ['不错']], support:111
+pattern:[['的', '味道'], ['的']], support:130
+pattern:[['的', '味道'], ['的', '味道']], support:127
+pattern:[['的', '味道'], ['味道']], support:134
+pattern:[['的'], ['恰到好处']], support:140
+pattern:[['的', '恰到好处']], support:149
+pattern:[['的'], ['了']], support:161
+pattern:[['的'], ['味道']], support:185
+pattern:[['的'], ['味道'], ['味道']], support:115
+pattern:[['的'], ['很']], support:244
+pattern:[['的'], ['很'], ['很']], support:230
+pattern:[['的', '好']], support:371
+pattern:[['的'], ['一如既往']], support:433
+pattern:[['的'], ['一如既往', '好']], support:308
+pattern:[['的'], ['一如既往', '的']], support:432
+pattern:[['的'], ['一如既往', '的', '好']], support:313
+pattern:[['的'], ['不错']], support:538
+pattern:[['的'], ['不错', '的']], support:145
+pattern:[['的'], ['好']], support:542
+pattern:[['的'], ['的']], support:3148
+pattern:[['的'], ['的'], ['是']], support:104
+pattern:[['的'], ['的'], ['味道']], support:123
+pattern:[['的'], ['的'], ['好']], support:140
+pattern:[['的'], ['的', '很']], support:144
+pattern:[['的'], ['的', '很'], ['很']], support:144
+pattern:[['的'], ['的', '味道']], support:147
+pattern:[['的'], ['的', '味道'], ['味道']], support:102
+pattern:[['的'], ['的'], ['了']], support:147
+pattern:[['的'], ['的', '不错']], support:175
+pattern:[['的'], ['的'], ['很']], support:230
+pattern:[['的'], ['的'], ['很'], ['很']], support:116
+pattern:[['的'], ['的'], ['不错']], support:286
+pattern:[['的'], ['的', '好']], support:386
+pattern:[['的'], ['的'], ['的']], support:1329
+pattern:[['的'], ['的'], ['的'], ['不错']], support:105
+pattern:[['的'], ['的'], ['的'], ['的']], support:249
+pattern:[['的'], ['的'], ['的'], ['的'], ['的']], support:131
