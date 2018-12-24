@@ -261,4 +261,19 @@ n + a：7<br>
 
 ****
 
+## 分类器
+### (13)boost_tree.py
+#### 利用XGBoost和LightGBM对评论进行分类（python文件）
+最后还会显示出XGBoost和LightGBM的损失值。
+输入：<br>
+```
+./feature/train.csv：训练集，所有的特征（特征空间）<br>
+```
+输出：<br>
+```
+./feature/train.svm：训练集（原训练集的80%），表示成稀疏矩阵的形式<br>
+./feature/valid.svm：验证集（原训练集的20%），表示成稀疏矩阵的形式<br>
+```
+
+****
 
