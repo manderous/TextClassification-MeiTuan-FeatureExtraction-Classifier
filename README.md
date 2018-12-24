@@ -121,5 +121,144 @@
 
 ****
 
+## 特征提取
+### (6)feature_pos.py
+#### 词性组合模式的特征（python文件）
+jieba词性对照表：
+参考网址：
+* 1 jieba分词中所有词性对应字母（词性列表及符号表示）
+https://blog.csdn.net/a2099948768/article/details/82216906
+* 2 jieba中文分词词性/解释对照表
+http://www.niumou.com.cn/183
+* 3 重要词性对照：
+n/n开头的：名词 ng nl nr ns nt nz
+v/v开头的：动词 vd vf vg vi vl vn vs vx vy
+a/a开头的：形容词 ad ag al an
+zg（部分是副词）/d：副词
+uj：助词“的”
+* 4 根据佳峰师兄的论文中的词性组合
+a + a：1
+a + n：2
+a + uj + n：3
+d/zg + a：4
+d/zg + v：5
+d + d/zg + a：6
+n + a：7
+其它：0
+输入：<br>
+```
+./lib/train_pos.txt：训练集，的词性标注结果<br>
+```
+输出：<br>
+```
+./lib/train_feature_pos.txt：训练集，词性组合模式的特征<br>
+```
+
+### (7)feature_fresq.py
+#### 频繁词序列模式的特征（python文件）
+（根据PrefixSpan.py文件提取出来的，输出字典变量：squence_support_dist_dict_filter，或者输出文件：train_data_squence_dict.txt）
+一如既往 的 好：1
+不错：2
+不错 的：3
+古色古香：4
+味道 不错：5
+很 不错：6
+很 好：7
+很 新鲜：8
+得 恰到好处：9
+恰到好处：10
+新鲜：11
+最：12
+服务：13
+服务态度：14
+烤：15
+的 恰到好处：16
+还：17
+还不错：18
+其它：0
+输入：<br>
+```
+./lib/train_cut.txt：训练集，的分词结果<br>
+```
+输出：<br>
+```
+./lib/train_feature_fresq.txt：训练集，频繁词序列模式的特征<br>
+```
+
+### (8)feature_sentiment.py
+#### 情感的特征（基于情感词典的情感分类）（python文件）
+情感得分
+积极：2
+消极：1
+中性：0
+输入：<br>
+```
+./lib/train_cut.txt：训练集，的分词结果<br>
+./sentiment_dic/deny.txt：否定词典<br>
+./sentiment_dic/positive_sentiment.txt：正面情感词语<br>
+./sentiment_dic/positive_comment.txt：正面评价词语<br>
+./sentiment_dic/negative_sentiment.txt：负面情感词语<br>
+./sentiment_dic/negative_comment.txt：负面评价词语<br>
+./sentiment_dic/degree.txt：程度级别词语（有extreme、very、more、ish、insufficiently、over六个程度等级）<br>
+```
+输出：<br>
+```
+./lib/train_feature_sentiment.txt：训练集，情感模式的特征<br>
+```
+
+### (9)feature_slen.py
+#### 句子长度的特征（python文件）
+输入：<br>
+```
+./lib/train_cut.txt：训练集，的分词结果<br>
+```
+输出：<br>
+```
+./lib/train_feature_slen.txt：训练集，句子长度的特征<br>
+```
+
+### (10)feature_senti_num.py
+#### 情感词的个数（python文件）
+输入：<br>
+```
+./lib/train_cut.txt：训练集，的分词结果<br>
+./sentiment_dic/positive_sentiment.txt：正面情感词语<br>
+./sentiment_dic/positive_comment.txt：正面评价词语<br>
+./sentiment_dic/negative_sentiment.txt：负面情感词语<br>
+./sentiment_dic/negative_comment.txt：负面评价词语<br>
+```
+输出：<br>
+```
+./lib/train_feature_senti_num.txt：训练集，情感次个数的特征<br>
+```
+
+### (11)feature_enti_num.py
+#### 实体的个数（python文件）
+在这里，我认为所有的名词都是实体，也就是在jieba词性标注中，被标注为n, ng, nl, nr, ns, nt, nz的词语。
+输入：<br>
+```
+./lib/train_pos.txt'：训练集，的词性标注结果<br>
+```
+输出：<br>
+```
+./lib/train_feature_enti_num.txt：训练集，情感次个数的特征<br>
+```
+
+### (12)import_csv.py
+#### 将文本所有的特征导出在一个csv文件中（python文件）
+输入：<br>
+```
+./lib/train.txt：训练集<br>
+./lib/train_feature_pos.txt：训练集，词性组合模式的特征<br>
+./lib/train_feature_fresq.txt：训练集，频繁词序列模式的特征<br>
+./lib/train_feature_sentiment.txt：训练集，情感模式的特征<br>
+./lib/train_feature_slen.txt：训练集，句子长度的特征<br>
+```
+输出：<br>
+```
+./feature/train.csv：训练集，所有的特征（特征空间）<br>
+```
+
+****
 
 
