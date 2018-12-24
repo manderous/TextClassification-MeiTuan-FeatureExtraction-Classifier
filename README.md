@@ -131,20 +131,20 @@ https://blog.csdn.net/a2099948768/article/details/82216906
 * 2 jieba中文分词词性/解释对照表
 http://www.niumou.com.cn/183
 * 3 重要词性对照：
-n/n开头的：名词 ng nl nr ns nt nz
-v/v开头的：动词 vd vf vg vi vl vn vs vx vy
-a/a开头的：形容词 ad ag al an
-zg（部分是副词）/d：副词
-uj：助词“的”
+n/n开头的：名词 ng nl nr ns nt nz<br>
+v/v开头的：动词 vd vf vg vi vl vn vs vx vy<br>
+a/a开头的：形容词 ad ag al an<br>
+zg（部分是副词）/d：副词<br>
+uj：助词“的”<br>
 * 4 根据佳峰师兄的论文中的词性组合
-a + a：1
-a + n：2
-a + uj + n：3
-d/zg + a：4
-d/zg + v：5
-d + d/zg + a：6
-n + a：7
-其它：0
+a + a：1<br>
+a + n：2<br>
+a + uj + n：3<br>
+d/zg + a：4<br>
+d/zg + v：5<br>
+d + d/zg + a：6<br>
+n + a：7<br>
+其它：0<br>
 输入：<br>
 ```
 ./lib/train_pos.txt：训练集，的词性标注结果<br>
@@ -156,26 +156,26 @@ n + a：7
 
 ### (7)feature_fresq.py
 #### 频繁词序列模式的特征（python文件）
-（根据PrefixSpan.py文件提取出来的，输出字典变量：squence_support_dist_dict_filter，或者输出文件：train_data_squence_dict.txt）
-一如既往 的 好：1
-不错：2
-不错 的：3
-古色古香：4
-味道 不错：5
-很 不错：6
-很 好：7
-很 新鲜：8
-得 恰到好处：9
-恰到好处：10
-新鲜：11
-最：12
-服务：13
-服务态度：14
-烤：15
-的 恰到好处：16
-还：17
-还不错：18
-其它：0
+根据PrefixSpan.py文件提取出来的，输出字典变量：squence_support_dist_dict_filter，或者输出文件：train_data_squence_dict.txt<br>
+一如既往 的 好：1<br>
+不错：2<br>
+不错 的：3<br>
+古色古香：4<br>
+味道 不错：5<br>
+很 不错：6<br>
+很 好：7<br>
+很 新鲜：8<br>
+得 恰到好处：9<br>
+恰到好处：10<br>
+新鲜：11<br>
+最：12<br>
+服务：13<br>
+服务态度：14<br>
+烤：15<br>
+的 恰到好处：16<br>
+还：17<br>
+还不错：18<br>
+其它：0<br>
 输入：<br>
 ```
 ./lib/train_cut.txt：训练集，的分词结果<br>
@@ -187,10 +187,10 @@ n + a：7
 
 ### (8)feature_sentiment.py
 #### 情感的特征（基于情感词典的情感分类）（python文件）
-情感得分
-积极：2
-消极：1
-中性：0
+情感得分<br>
+积极：2<br>
+消极：1<br>
+中性：0<br>
 输入：<br>
 ```
 ./lib/train_cut.txt：训练集，的分词结果<br>
