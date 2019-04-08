@@ -322,7 +322,6 @@ n + a：7<br>
 ****
 
 ### sentiment_dic文件夹下的数据文件介绍
-从佳峰师兄的论文的数据集中拿到。
 * 1 degree.txt：程度级别词语（中文）（txt文件）
 * 2 deny.txt：自己上网搜集的否定词典（txt文件）
 * 3 negative_comment.txt：负面评价词语（中文）（txt文件）
