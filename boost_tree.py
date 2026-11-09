@@ -36,7 +36,7 @@ def parse_feat(line):
 # load a csv file, use parse_feat() to convert format
 def load_file(file_name):
     data = []
-    with open(file_name, 'r') as fin:
+    with open(file_name, 'r', encoding='utf-8') as fin:
         print('field_names:', fin.readline().strip().split(','))
         for line in fin:
             line = line.strip()
@@ -134,7 +134,7 @@ valid_ind = np.where(rnd >= 0.8)[0]
 MAX_FEAT = ' %d:0\n' % len(feat_map)
 
 flag = True
-with open('./feature/train.svm', 'w') as fout:
+with open('./feature/train.svm', 'w', encoding='utf-8') as fout:
     for i in train_ind:
         line = train_label[i]
         for fv in train_data[i]:
@@ -147,7 +147,7 @@ with open('./feature/train.svm', 'w') as fout:
         fout.write(line)
         
 flag = True
-with open('./feature/valid.svm', 'w') as fout:
+with open('./feature/valid.svm', 'w', encoding='utf-8') as fout:
     for i in valid_ind:
         line = train_label[i]
         for fv in train_data[i]:
